@@ -246,7 +246,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24185314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: 0.376, y: 0.032, z: 0.096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -254,7 +254,7 @@ Transform:
   - {fileID: 2032351482}
   m_Father: {fileID: 1597928837}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!135 &24185316
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2063,6 +2063,10 @@ PrefabInstance:
     - target: {fileID: 963862575841910297, guid: b798010f43b87774e9d77043eaea6b3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806570782011617333, guid: b798010f43b87774e9d77043eaea6b3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8806570782011617333, guid: b798010f43b87774e9d77043eaea6b3a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5628,7 +5632,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085557387}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: 0.376, y: 0.032, z: 0.096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5636,7 +5640,7 @@ Transform:
   - {fileID: 1429931574}
   m_Father: {fileID: 1141618923}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!135 &1085557389
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6241,7 +6245,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hook_Modern (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6213104908894159820, guid: 9c50d789c0c63e14f8e1f1447e1132bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c50d789c0c63e14f8e1f1447e1132bc, type: 3}
 --- !u!1 &1304530879
 GameObject:
@@ -7819,7 +7824,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hook_Modern (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6213104908894159820, guid: 9c50d789c0c63e14f8e1f1447e1132bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c50d789c0c63e14f8e1f1447e1132bc, type: 3}
 --- !u!4 &1597928837 stripped
 Transform:
@@ -8386,7 +8392,7 @@ HingeJoint:
   m_GameObject: {fileID: 1670100063}
   m_ConnectedBody: {fileID: 1558622001}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: -21.5}
+  m_Anchor: {x: 2, y: 0, z: -21.5}
   m_Axis: {x: 1, y: 0, z: 5}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0.07264614, y: 0.39999783, z: -21.449995}
@@ -8438,7 +8444,7 @@ HingeJoint:
   m_GameObject: {fileID: 1670100063}
   m_ConnectedBody: {fileID: 1558622001}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: -1}
+  m_Anchor: {x: 2, y: 0, z: -1}
   m_Axis: {x: 1, y: 0, z: 5}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0.07264614, y: 0.4000008, z: -0.9500027}
